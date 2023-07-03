@@ -25,6 +25,10 @@ export default class ApiService {
         return httpCLient.put(`${this.apiUrl}${url}`, objeto);
     }
     
+    put(url) {
+        return httpCLient.put(`${this.apiUrl}${url}`);
+    }
+
     delete(url) {
         return httpCLient.delete(`${this.apiUrl}${url}`);
     }
