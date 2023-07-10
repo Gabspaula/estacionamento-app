@@ -73,7 +73,7 @@ export default function Estacionamento() {
         <div className='container'>
             <div className='box'>
                 <div className='searchMenu'>
-                    <input type="text" value={filtro} onChange={filtrarDados} placeholder="Filtrar por nome" />
+                    <input type="text" value={filtro} onChange={filtrarDados} placeholder="Filtrar por placa" />
                     <button onClick={() => registraVeiculo(filtro)}>Adicionar</button>
                 </div>
                 <table>
